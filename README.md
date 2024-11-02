@@ -47,3 +47,34 @@ Set a recurring schedule for a job.
 Specify a Cloud Pub/Sub topic as the job target.
 Run a job.
 Verify success.
+
+
+
+
+
+
+
+
+
+
+
+A Cloud Run function is a piece of code that runs in response to an event, such as an HTTP request, a message from a messaging service, or a file upload. Cloud events are things that happen in your cloud environment. These might be things like changes to data in a database, files added to a storage system, or a new virtual machine instance being created.
+
+Since Cloud Run functions are event-driven, they only run when something happens. This makes them a good choice for tasks that need to be done quickly or that don't need to be running all the time.
+
+For example, you can use a Cloud Run function to:
+
+automatically generate thumbnails for images that are uploaded to Cloud Storage.
+send a notification to a user's phone when a new message is received in Pub/Sub.
+process data from a Cloud Firestore database and generate a report.
+You can write your code in any language that supports Node.js, and you can deploy your code to the cloud with a few clicks. Once your Cloud Run function is deployed, it will automatically start running in response to events.
+
+This hands-on lab shows you how to create, deploy, and test a Cloud Run function using the Google Cloud console.
+
+What you'll do
+Create a Cloud Run function
+Deploy and test the function
+View logs
+
+
+
